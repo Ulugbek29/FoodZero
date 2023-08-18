@@ -1,0 +1,60 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+
+    /*========== COLORS ==========*/
+    /* Color mode HSL(hue, saturation, lightness) */
+    --main-color: hsl(195, 100%, 30%) ;
+    --gradient-color: linear-gradient(90deg,
+                        hsl(210, 55%, 20%),
+                        hsl(192, 62%, 25%));
+    --title-color: hsl(210, 52%, 20%);
+    --text-color: hsl(210, 24%, 15%);
+    --white-color: #fff;
+    --body-color: hsl(210, 55%, 85%);
+
+    /*========== Font and typography ==========*/
+    /*0.5rem = 8px | 1rem = 16px*/
+    --body-font: 'Poppins', sans-serif;
+    --second-font: 'Lora', serif;
+    --biggest-font-size: 2.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.813rem;
+
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*========== Z-index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+
+}
+
+/*=============== Responsive typography ===============*/
+/* @media screen and (min-width: 1024px) {
+    :root {
+        --biggest-font-size: 4rem;
+        --normal-font-size: 1.1rem;
+        --small-font-size: 0.9rem;
+    }
+} */
+
+/*=============== BASE ===============*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--body-font);
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+
+
+/*=============== HEADER & NAV ===============*/
+
+
+/*=============== SECTIONS ===============*/
