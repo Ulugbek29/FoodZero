@@ -328,9 +328,131 @@ bottom: 90px;
 
 
 
-// ======================== HON SECTION =============================
+// ======================== XON SECTION =============================
+.ceb{
+    width: 1300px;
+    margin: 0 auto;
+}
+.ceb__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &-title{
+        font-family: Rufina;
+        font-size: 80px;
+        font-weight: 700;
+        line-height: 120px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    &-subtitle{
+        margin-top: 30px;
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #4D4D4D;
 
+    }
+}
 
+.ceb__body{
+    &-cards{
+        display: flex;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    &-card-img{
+        width: 100%;
+        top: -160px;
+        padding-right: 20px;
+        position: relative;
+        z-index: 2;
+    }
+    &-card{
+        .card-overlay{
+            background: linear-gradient(177.59deg, rgba(35, 48, 0, 0.2) 2.02%, rgba(35, 48, 0, 0) 97.98%);
+            width: 95%;
+            height: 160px;
+            margin-right: 20px;
+            position: relative;
+            z-index: 3;
+            display: flex;
+            justify-content: space-between;
+            //styleName: Heading 4;
+            font-family: Rufina;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 64px;
+            letter-spacing: 0px;
+            text-align: left;
+            padding: 10px 30px 10px;
+        }
+        
+        .Icon_arrow-right{
+            width: 32px;
+            transform: translateY(-40px);
+        }
+    }
+}
+
+.ceb__footer{
+    &-info{
+        display: flex;
+        font-family: Rufina;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    &-text{
+        display: inline-block;
+    }
+
+    &-img{
+        display: inline-block;
+    }
+
+    &-bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+        .ceb__footer-person{
+            display: flex;
+            align-items: center;
+            &-img{
+                width: 100px;
+                padding-right: 20px;
+            }
+            &-name{
+                //styleName: Heading 5;
+                font-family: Rufina;
+                font-size: 64px;
+                font-weight: 700;
+                letter-spacing: 0px;
+                text-align: left;
+
+            }
+            &-pro{
+                padding-top: 10px;
+                //styleName: Label;
+                font-family: sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0.02em;
+                text-align: left;
+
+            }
+        }
+    }
+}
 
 
 
