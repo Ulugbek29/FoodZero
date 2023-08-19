@@ -210,9 +210,9 @@ header .header__start-section .start__col2 img {
   bottom: 90px;
 }
 
-.reservation {
-  width: 1100px;
-  height: 400px;
+.reservation-section {
+  background: #EBF0E4;
+  padding: 10rem 8%;
 }
 
 .reservation-text {
