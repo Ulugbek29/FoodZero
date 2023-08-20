@@ -174,7 +174,87 @@ header {
 // ======================== Xoshimjonov O SECTION =============================
 
 
-
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    .menu{
+        .menu-panel{
+            display: flex;
+            justify-content: start;
+            position: relative;
+            padding: 0 90px;
+            .menu-text{
+                h2{
+                    color: var(--000000, #000);
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Rufina;
+                    font-size: 80px;
+                    font-style: normal;
+                    font-weight: 700;
+                }
+                p{
+                    color: var(--4-d-4-d-4-d, #4D4D4D);
+                    font-family: Lato;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%; 
+                    letter-spacing: 0.48px;
+                    width: 500px;
+                }
+            }
+            .menu-img{
+                position: absolute;
+                right: 0;
+                top:-80px;
+            }
+        }
+  
+        .menu-pirce{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: start;
+            gap: 60px;
+            margin-top: 50px;
+            .pirce{
+                width: 600px;
+                p{
+                    font-size: 18px;
+                    color: gray;
+                    &:nth-child(1){
+                        color: #000;
+                     padding: 0 20px;
+                    text-align: end;
+                    font-size: 25px;
+                    font-weight: 900;
+                    font-family: sans-serif;
+                    }
+                    b{
+                        font-size: 30px;
+                    }
+                }
+                hr{
+                    height: 4px;
+                    background-color: #000;
+                    border: 0;
+                    text-decoration-line: overline;
+                }
+                h2{
+                    width: 600px;
+                    color: var(--000000, #000);
+                    font-family: "Rufina";
+                    font-size: 58px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 84px; 
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+  }
+  
 
 
 
@@ -638,3 +718,86 @@ bottom: 90px;
 
 
 // ======================== Footer SECTION =============================
+
+.footer {
+    background: #233000;
+    padding: 5rem 0 0rem 0;
+    color: #fff;
+    .footer__up-section {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding-bottom: 3rem;
+        border-bottom: dashed;
+        >h2 {
+            font-size: 3rem;
+        }
+
+        div  h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        div ul {
+            list-style: none;
+
+            li {
+                margin-bottom: 1rem;
+            }
+        }
+
+        .footer__input {
+            width: 40%;
+            div{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                input {
+                    width: 100%;
+                    padding: 0.8rem 1rem;
+                    background: transparent;
+                    border: 1px solid #fff;
+                    color: #fff;
+                    font-weight: bold;
+                    &::placeholder {
+                        color: #fff;
+                    }
+                }
+                .footer__btn {
+                    padding: 0.8rem 1rem;
+                    background: #5E6600;
+                    color: #fff;
+                    font-weight: bold;
+                    font-size: 1rem;
+                }
+            }
+            span {
+                font-size: 0.7rem;
+            }
+        }
+    }
+
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem 7%;
+
+        .socials {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            i {
+                font-size: 1.2rem;
+            }
+        }
+
+    }
+
+}
+
+
+
