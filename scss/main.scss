@@ -174,7 +174,87 @@ header {
 // ======================== Xoshimjonov O SECTION =============================
 
 
-
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    .menu{
+        .menu-panel{
+            display: flex;
+            justify-content: start;
+            position: relative;
+            padding: 0 90px;
+            .menu-text{
+                h2{
+                    color: var(--000000, #000);
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    font-family: Rufina;
+                    font-size: 80px;
+                    font-style: normal;
+                    font-weight: 700;
+                }
+                p{
+                    color: var(--4-d-4-d-4-d, #4D4D4D);
+                    font-family: Lato;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%; 
+                    letter-spacing: 0.48px;
+                    width: 500px;
+                }
+            }
+            .menu-img{
+                position: absolute;
+                right: 0;
+                top:-80px;
+            }
+        }
+  
+        .menu-pirce{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: start;
+            gap: 60px;
+            margin-top: 50px;
+            .pirce{
+                width: 600px;
+                p{
+                    font-size: 18px;
+                    color: gray;
+                    &:nth-child(1){
+                        color: #000;
+                     padding: 0 20px;
+                    text-align: end;
+                    font-size: 25px;
+                    font-weight: 900;
+                    font-family: sans-serif;
+                    }
+                    b{
+                        font-size: 30px;
+                    }
+                }
+                hr{
+                    height: 4px;
+                    background-color: #000;
+                    border: 0;
+                    text-decoration-line: overline;
+                }
+                h2{
+                    width: 600px;
+                    color: var(--000000, #000);
+                    font-family: "Rufina";
+                    font-size: 58px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 84px; 
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+  }
+  
 
 
 
