@@ -154,6 +154,7 @@ header .header__start-section .start__col2 img {
 
 .cook {
   width: 100%;
+  background: #EBF0E4;
 }
 .cook .cook__wrapper {
   width: 100%;
@@ -243,6 +244,73 @@ header .header__start-section .start__col2 img {
   letter-spacing: 0.48px;
   position: relative;
   bottom: 90px;
+}
+
+.fashion__lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.fashion__lists .fashion__item {
+  flex: 1;
+}
+.fashion__lists .fashion__item .fashion__item-text {
+  padding: 0 2rem;
+}
+.fashion__lists .fashion__item .fashion__item-text .fashion__text-title {
+  display: flex;
+}
+.fashion__lists .fashion__item .fashion__item-text .fashion__text-title ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.2rem;
+  z-index: -1;
+}
+.fashion__lists .fashion__item .fashion__item-text .fashion__text-title ul li {
+  color: #5E6600;
+}
+.fashion__lists .fashion__item .fashion__item-text .fashion__text-subtitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.fashion__lists .fashion__item .fashion__item-text .fashion__text-subtitle h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  border-bottom: dashed;
+}
+.fashion__lists .fashion__item .fashion__item-text .fashion__text-subtitle p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: grey;
+}
+.fashion__lists .fashion__item .fashion__item-text .fashion__text-subtitle a {
+  color: #000000;
+  font-size: 1.5rem;
+}
+.fashion__lists .fashion__item .fashion__item-text .fashion__text-subtitle a i {
+  margin-left: 1rem;
+}
+.fashion__lists .fashion__item .fashion__text-img {
+  position: relative;
+  max-width: 750px;
+}
+.fashion__lists .fashion__item .fashion__text-img img {
+  width: 100%;
+  object-fit: cover;
+}
+.fashion__lists .fashion__item .fashion__text-img span {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.8rem 1.5rem;
+  color: #fff;
+  background: #5E6600;
 }
 
 .reservation-section {
